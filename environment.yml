@@ -1,0 +1,17 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - pytz
+  - ipykernel
+  - numpy
+  - pandas
+  - ta-lib
+
+  - pip:
+    - vectorbt[full]
